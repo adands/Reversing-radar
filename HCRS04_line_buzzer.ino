@@ -5,12 +5,12 @@
 #include "HCRS04Lib.h"
 #include "LED.h"
 
-const char ssid[]     = "ASUS_412";// change to your WIFI SSID
-const char password[] = "lab309412";// change to your WIFI Password
-IPAddress server_addr(114,33,83,61);// change to you server ip, note its form split by "," not "."
+const char ssid[]     = "SSID";// change to your WIFI SSID
+const char password[] = "SSIDpassword";// change to your WIFI Password
+IPAddress server_addr(xxx,xxx,xxx,xxx);// change to you server ip, note its form split by "," not "."
 int MYSQLPort =3310;   //mysql port default is 3306
-char user[] = "wade0125";// Your MySQL user login username(default is root),and note to change MYSQL user root can access from local to internet(%)
-char pass[] = "bcz8219nrd8178";// Your MYSQL password
+char user[] = "yourMySQL";// Your MySQL user login username(default is root),and note to change MYSQL user root can access from local to internet(%)
+char pass[] = "MySQLpassword";// Your MYSQL password
 
 WiFiClient client;            
 MySQL_Connection conn((Client *)&client);
